@@ -12,3 +12,7 @@ jobs:
       - name: Di Hola!
         run: |
           echo "¡Hola GitHub Actions!"
+      - name: Dime la fecha
+        run: date
+      - name: Listame los archivos de la máquina
+        run: ls -lah
