@@ -1,1 +1,14 @@
-echo "Hello World!"
+name: ¡Hola GitHub Actions!
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  hola_mundo_job:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Di Hola!
+        run: |
+          echo "¡Hola GitHub Actions!"
